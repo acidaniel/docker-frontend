@@ -18,6 +18,7 @@
     gulp-sass-lint \
     gulp-size \
     gulp-sourcemaps \
+    gulp-kss \
     kss \
     node-sass-import-once \
     support-for \
