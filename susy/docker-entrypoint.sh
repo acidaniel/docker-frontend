@@ -22,6 +22,7 @@
    gulp-sourcemaps \
    gulp-uglify \
    kss \
+   gulp-kss \
    node-sass-import-once \
    support-for \
    susy \
