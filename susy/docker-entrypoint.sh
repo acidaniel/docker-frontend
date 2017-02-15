@@ -9,13 +9,16 @@
    breakpoint-sass \
    browser-sync \
    chroma-sass \
+   del \
    eslint \
    gulp \
    gulp-autoprefixer \
+   gulp-cssnano \
    gulp-compass \
    gulp-eslint \
    gulp-imagemin \
    gulp-notify \
+   gulp-order \
    gulp-rename \
    gulp-sass \
    gulp-sass-lint \
@@ -25,6 +28,7 @@
    kss \
    gulp-kss \
    node-sass-import-once \
+   run-sequence \
    support-for \
    susy \
    node-normalize-scss \
