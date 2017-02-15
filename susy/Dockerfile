@@ -5,15 +5,18 @@
 
   RUN apk  add --no-cache git \
     && npm install -g \
+    babel-plugin-transform-remove-strict-mode \
+    babel-preset-es2015 \
     bower \
     breakpoint-sass \
     browser-sync \
     chroma-sass \
     del \
-    eslint \
+    gulp-eslint \
     gulp-autoprefixer \
     gulp-cssnano \
     gulp-compass \
+    gulp-babel \
     gulp-eslint \
     gulp-imagemin \
     gulp-notify \
@@ -29,6 +32,7 @@
     run-sequence \
     support-for \
     susy \
+    singularitygs \
     node-normalize-scss \
     gulp-concat
 
