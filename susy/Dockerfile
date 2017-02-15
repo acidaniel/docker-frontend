@@ -13,6 +13,7 @@
     gulp-autoprefixer \
     gulp-compass \
     gulp-eslint \
+    gulp-imagemin \
     gulp-notify \
     gulp-rename \
     gulp-sass-lint \
