@@ -12,12 +12,13 @@
     browser-sync \
     chroma-sass \
     del \
+    font-awesome \
     gulp-eslint \
     gulp-autoprefixer \
+    gulp-babel \
     gulp-cssnano \
     gulp-compass \
-    gulp-babel \
-    gulp-eslint \
+    gulp-concat \
     gulp-imagemin \
     gulp-notify \
     gulp-order \
@@ -26,15 +27,14 @@
     gulp-size \
     gulp-sourcemaps \
     gulp-uglify \
-    gulp-kss \
     kss \
+    gulp-kss \
+    node-normalize-scss \
     node-sass-import-once \
     run-sequence \
     support-for \
     susy \
-    singularitygs \
-    node-normalize-scss \
-    gulp-concat
+    singularitygs
 
   COPY docker-entrypoint.sh /usr/bin/
 

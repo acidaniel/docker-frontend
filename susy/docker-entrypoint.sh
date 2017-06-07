@@ -12,30 +12,28 @@
    browser-sync \
    chroma-sass \
    del \
+   font-awesome \
    gulp-eslint \
-   gulp \
    gulp-autoprefixer \
    gulp-babel \
    gulp-cssnano \
    gulp-compass \
-   gulp-eslint \
+   gulp-concat \
    gulp-imagemin \
    gulp-notify \
    gulp-order \
    gulp-rename \
-   gulp-sass \
    gulp-sass-lint \
    gulp-size \
    gulp-sourcemaps \
    gulp-uglify \
    kss \
    gulp-kss \
+   node-normalizer-scss \
    node-sass-import-once \
    run-sequence \
    support-for \
    susy \
-   singularitygs \
-   node-normalize-scss \
-   gulp-concat
+   singularitygs 
 
  exec "$@"

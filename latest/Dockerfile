@@ -1,4 +1,4 @@
-  FROM mhart/alpine-node:6
+  FROM mhart/alpine-node:7
 
   MAINTAINER Daniel Serna
 
@@ -12,10 +12,6 @@
     && apk del --purge make g++ python
 
   COPY docker-entrypoint.sh /usr/bin/
-
-  RUN chmod 755 /usr/bin/docker-entrypoint.sh
-
   ENTRYPOINT ["docker-entrypoint.sh"]
-
   CMD ["gulp"]
 
