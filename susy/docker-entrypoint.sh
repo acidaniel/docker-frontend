@@ -29,7 +29,7 @@
    gulp-uglify \
    kss \
    gulp-kss \
-   node-normalizer-scss \
+   node-normalize-scss \
    node-sass-import-once \
    run-sequence \
    support-for \
