@@ -1,11 +1,8 @@
   FROM acidaniel/frontend:latest
 
-
   MAINTAINER Daniel Serna
-
-  RUN apk  add --no-cache git \
-    && npm install -g \
-    babel-plugin-transform-remove-strict-mode \
+  
+  ENV NPM_PACKAGES "babel-plugin-transform-remove-strict-mode \
     babel-preset-es2015 \
     bower \
     breakpoint-sass \
@@ -34,9 +31,9 @@
     run-sequence \
     support-for \
     susy \
-    singularitygs
+    singularitygs"
+
+  RUN apk add --no-cache git \
+    && npm install -g $NPM_PACKAGES
 
   COPY docker-entrypoint.sh /usr/bin/
-
-  RUN chmod 775 /usr/bin/docker-entrypoint.sh
-
